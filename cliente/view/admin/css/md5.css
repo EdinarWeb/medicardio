@@ -1,0 +1,132 @@
+h2
+{
+  width: 100%;
+  padding: 2px 0px 3px 5px;
+  font: bold 14pt sans-serif;
+}
+
+th
+{
+  vertical-align: top;
+  text-align: left;
+}
+td
+{
+  vertical-align: top;
+}
+
+table.hr
+{
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    clear: both;
+}
+
+.hr td
+{
+  height: 6px;
+}
+
+.indented, p.math, p.code, p.emphasized, .hashinstructions .source
+{
+  margin-left: 50px;
+}
+
+.math { font: italic 0.9em monospace; }
+.code { font: 0.9em monospace; }
+.emphasized { font-style: italic; }
+
+dt { font-weight: bold; }
+dd { margin-bottom: 1em; }
+
+.status
+{
+  padding: 2px;
+  padding-left: 5px;
+  width: 500px;
+}
+
+.status .title
+{
+  font-size:  larger;
+  font-weight:  normal;
+}
+
+.clearit {
+    clear: both;
+}
+
+#nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#nav li {
+    display: block;
+    float: left;
+    list-style: none;
+}
+
+#nav li ul {
+    position: absolute;
+    display: none;
+    padding: 2px 2px 2px 2px;
+}
+
+#nav li ul li {
+    float: none;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+    display: block;
+}
+
+img.photo {
+    float: left;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 1em;
+}
+
+img.photor {
+    float: right;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 1em;
+}
+
+h3 { margin-top: 0; }
+.blog_photos h3, .logos h3, .contents h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table.contents {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.contents td {
+    padding-bottom:0.5em;
+    vertical-align:top;
+    width: 50%
+}
+
+img.contimg {
+    border:none;
+    float:left;
+    margin-right: 5px;
+}
+
+.blog h3 { clear: both; }
+
+.centered {
+    margin-left:auto;
+    margin-right:auto;
+}
+.gap li { margin-bottom: 1em; }

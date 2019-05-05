@@ -1,0 +1,601 @@
+﻿<!DOCTYPE html>
+<html lang="es-AR">
+	<head>
+		<title>Medicardio - Servicio Privado de Emergencias y Atenci&oacute;n  M&eacute;dica Domiciliaria</title>
+		
+	<!-- metas -->
+	<meta charset="utf-8">
+	<meta name="author" content="http://edinarweb.com.ar">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<!-- MEta etiquetas para el manifest y apple -->
+	<meta name="theme-color" content="#008FD5">
+	<meta name="MobileOptimized" content="width">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-title" content="Medicardio">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<!-- Meta etiquetas para windows-->
+	<meta name="msapplication-TileColor" content="#008FD5">
+	<meta name="msapplication-TileImage" content="./img/192x192">
+	<!--/ metas -->
+
+	<!-- Otros metas -->
+	<meta name="og:title" content="Medicardio">
+	<meta name="og:locale" content="es-AR">
+	<meta name="og:type" content="website">
+	<meta name="og:image" content="./img/128x128">
+	<meta name="og:site_name" content="Medicardio">
+	<meta name="og:url" content="medicardio.com.ar">
+	
+	
+	<!-- styles -->
+	<link rel="shortcut icon" type="image/png" href="./img/app/favicon.png">
+	<link rel="apple-touch-icon" href="./app/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="./app/1024x1024.png">
+	<link rel="apple-touch-icon" href="./app/512x512.png">
+	<link rel="apple-touch-icon" href="./app/384x384.png">
+	<link rel="apple-touch-icon" href="./app/256x256.png">
+	<link rel="apple-touch-icon" href="./app/192x192.png">
+	<link rel="apple-touch-icon" href="./app/128x128.png">
+	<link rel="apple-touch-icon" href="./app/96x96.png">
+	<link rel="apple-touch-icon" href="./app/64x64.png">
+	<link rel="apple-touch-icon" href="./app/32x32.png">
+	<link rel="apple-touch-icon" href="./app/16x16.png">
+	<link rel="apple-touch-startup-image" href="./app/apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="./css/layerslider.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/fullwidth/skin.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/color-blue.css">		
+	<!--/ styles -->
+
+	<!-- scripts web app progressive -->
+	<link rel="manifest" href="./manifest.json">
+	<!-- / scripts web app progressive -->
+
+	</head>
+	
+	<body>
+		<div class="page">
+
+			<!-- page header -->
+			<header class="page-header main-page sticky">
+				<div class="sticky-wrapp">
+					<div class="sticky-container">
+						<!-- logo -->
+						<section id="logo" class="logo">
+							<div>
+								<a href="index"><img src="img/blue/logo.png" alt="Clinico"></a>
+							</div>
+						</section>
+						<!--/ logo -->
+						
+					<!-- main nav -->
+			<nav class="main-nav">
+				<ul>
+				 	<li><a href="index" class="active"><i class="fa fa-plus"></i>Inicio</a>
+					<!--<li><a href="services"><i class="fa fa-plus"></i>Servicios</a></li>-->
+					<!--<li><a href="contacts"><i class="fa fa-plus"></i>Contacto</a></li>-->
+					<li><a href="./cliente/index"><i class="fa fa-plus"></i>Clientes</a></li>
+				</ul>
+			</nav>
+					<!--/ main nav -->
+						
+						<!-- mobile nav -->
+						<nav id="mobile-main-nav" class="mobile-main-nav">
+							<i class="fa fa-bars"></i><a href="#" class="opener">Navegaci&oacute;n</a>
+							<ul>
+								<li><a href="index" class="active">Inicio</a>
+								<!--<li><a href="services">Servicios</a></li>-->
+								<!--<li><a href="contacts">Contacto</a></li>-->
+								<li><a href="./cliente/index">Clientes</a></li>
+							</ul>
+						</nav>
+						<!--/ mobile nav -->
+					</div>
+				</div>
+			</header>
+			<!--/ page header -->
+			
+			<!-- quick search -->
+			<!--<form id="quick-search" class="quick-search">
+				<fieldset>
+					<legend>Quick Search:</legend>
+					
+					<input type="text" placeholder="Search by name" id="docname" name="docname" class="ui-autocomplete-input" autocomplete="off">
+					
+					<select>
+						<option value="0">Speciality</option>
+						<option value="1">Ophthomologist</option>
+						<option value="2">Dermatologist</option>
+						<option value="3">Neorologist</option>
+						<option value="4">Surgeon</option>
+					</select>
+					
+					<select>
+						<option value="0">Locations</option>
+						<option value="1">Primary Health Care</option>
+						<option value="2">Gynaecological Clinic</option>
+						<option value="3">Diagnosis With Precise</option>
+						<option value="4">Cardiac Clinic</option>
+						<option value="5">General Surgery</option>
+					</select>
+					
+					<button type="submit">Search</button>
+					<div class="switcher">
+						<button id="quick-search-switcher" type="button">Find a doctor</button>
+					</div>
+				</fieldset>				
+			</form>-->
+			<!--/ quick search -->
+
+			<!-- slider -->
+			<div class="slider-wrapper">
+				<section class="slider" id="slider">
+					<div class="ls-slide" data-ls="transition2d:9;slidedelay:7000;">					
+						<img src="pic/medical-slide-3.jpg" alt="" class="ls-bg">
+						
+						<div class="intro ls-l" data-ls="offsetyin:top;offsetxin:0;durationin:2000;offsetyout:bottom;offsetxout:0;durationout:1000;" style="left:80%;top:35%;">
+							<span class="icon fa fa-heart"></span>
+							<h2><span>CONSULTA DE</span>ODONTOLOG&Iacute;A</h2>
+							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
+							
+						</div>
+					</div>
+					<div class="ls-slide" data-ls="transition2d:40;slidedelay:7000;">				
+						<img src="pic/medical-slide-2.jpg" alt="" class="ls-bg">
+						
+						<div class="intro ls-l" data-ls="scalexin:0.3;scaleyin:0.3;rotatexin:180;offsetxin:0;durationin:2000;durationout:2000;scalexout:2;scaleyout:2;offsetxout:0;fadeout:true;showuntil:3000;" style="left:80%;top:35%;">
+							<span class="icon fa fa-comments"></span>
+							<h2><span>AYUDA</span>EN LINEA</h2>
+							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
+							
+						</div>
+					</div>
+					<div class="ls-slide" data-ls="transition2d:11;slidedelay:7000;">
+						<img src="pic/medical-slide-1.jpg" alt="" class="ls-bg">
+						
+						<div class="intro ls-l" data-ls="skewxin:30;skewyin:0;offsetxin:right;fadein:false;durationin:2000;durationout:1000;offsetxout:right;offsetyout:0;fadeout:true;" style="left:80%;top:35%;">
+							<span class="icon fa fa-flask"></span>
+							<h2><span>PRUEBAS DE</span>LABORATORIO</h2>
+							<p>Vestibulum rutrum luctus porta. Maecenas elit nibh</p>
+							
+						</div>
+					</div>
+				</section>
+			</div>
+			<!--/ slider -->
+			
+			<!-- page content -->
+			<main class="page-content">
+				<div class="grid-row">
+					<!-- benefits -->
+					<section class="benefits">
+						<ul>
+							<li>
+								<div class="pic"><i class="fa fa-heart"></i></div>
+								<div class="text">
+									<h2>Cardiolog&iacute;a</h2>
+									<p>Aliquam ut lorem scelerisque, consequat mi quis, scelerisque massa.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+							<li>
+								<div class="pic"><i class="fa fa-flask"></i></div>
+								<div class="text">
+									<h2>An&aacute;lisis Cl&iacute;nicos</h2>
+									<p>Cum sociis natoque penatibus et magnis dis parturient liquam montes liquam montes.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+							<li>
+								<div class="pic"><i class="fa fa-stethoscope"></i></div>
+								<div class="text">
+									<h2>Consultas Medicas</h2>
+									<p>Suspendisse mattis tristique libero at placerat. Nullam diam risus.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+							<li>
+								<div class="pic"><i class="fa fa-comments-o"></i></div>
+								<div class="text">
+									<h2>Ayuda en Linea</h2>
+									<p>Pellentesque quam metus, venenatis quis eleifend sit amet porttitor.</p>
+									<a href="#" class="more"></a>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<!--/ benefits -->
+				</div>
+				
+			
+				<div class="grid-row">
+					<!-- services -->
+					<section class="services">
+						<ul>
+							<li>
+								<a class="pic"><i class="fa fa-leaf"></i></a>
+								<h2><a href="#">Por un mundo sin papel</a></h2>
+								<p>MEDICARDIO esta comprometido al 100% con el medio ambiente. Es por eso que acercamos a nuestros pacientes su CARNET MEDICARDIO en linea 24/7 y as&iacute; contribuir positivamente al ecosistema sin utilizar ni papel ni plastico.
+								</p>
+								<a href="#" class="more fa fa-long-arrow-right"></a>
+							</li>
+							<li>
+								<a class="pic"><i class="fa fa-user-md"></i></a>
+								<div class="text">
+									<h2><a href="#">Medicos de Cabecera a domicilio.</a></h2>
+									<p>Para los casos en que el paciente no revista gravedad y/o se requiera una atenci&oacute;n m&acute;s personalizada, el socio podr&aacute; solicitar todos los d&iacute;as de 8 a 20 hs., la visita domiciliaria de un m&eacute;dico cl&iacute;nico, abonando un arancel al profesional actuante.</p>
+									<a href="#" class="more fa fa-long-arrow-right"></a>
+								</div>
+							</li>
+							<li>
+								<a class="pic"><i class="fa fa-clock-o"></i></a>
+								<h2><a href="#">Servicio 24 horas</a></h2>
+								<p>Mauris consectetur, dui eget ullamcorper hendrerit, eros ligula consectetur dui, vitae adipiscing nunc enim eu justo. Donec quis mollis neque. Pellentesque facilisis.</p>
+								<a href="#" class="more fa fa-long-arrow-right"></a>
+							</li>
+							<li>
+								<a class="pic"><i class="fa fa-ambulance"></i></a>
+								<div class="text">
+									<h2><a href="#">Departamanto de Emergencias</a></h2>
+									<p>MEDICARDIO brinda a sus afiliados protecci&oacute;n ante una Emergencia M&eacute;dica en su vehiculo, extendi&eacute;ndose este beneficio a pasajeros transportados y terceros involucrados en un accidente, sin distinciones.</p>
+									<a href="#" class="more fa fa-long-arrow-right"></a>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<!--/ services -->	
+					<div id="contacto"></div>
+				</div>
+				<!--<div class="grid-row">-->
+					<!-- doctors carousel -->
+					<!--<section class="widget doctors-carousel doctors">
+						<div class="widget-title">Our Doctors</div>
+						<div id="doctors-carousel" class="owl-carousel">
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-1.jpg" width="270" height="270" alt="Dr. Butcher House">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Butcher House</a></h3>
+								<p>Ophthomologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-2.jpg" width="270" height="270" alt="Dr. Brick Wall">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Brick Wall</a></h3>
+								<p>Dermatologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-3.jpg" width="270" height="270" alt="Dr. Sno White">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Sno White</a></h3>
+								<p>Neorologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-4.jpg" width="270" height="270" alt="Dr. Mangle Taleebin">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Mangle Taleebin</a></h3>
+								<p>Surgeon</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-2.jpg" width="270" height="270" alt="Dr. Brick Wall">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Brick Wall</a></h3>
+								<p>Dermatologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-4.jpg" width="270" height="270" alt="Dr. Mangle Taleebin">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Mangle Taleebin</a></h3>
+								<p>Surgeon</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-3.jpg" width="270" height="270" alt="Dr. Sno White">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Sno White</a></h3>
+								<p>Neorologist</p>
+							</div>
+							<div class="item">
+								<div class="pic">
+									<img src="pic/doctor-1.jpg" width="270" height="270" alt="Dr. Butcher House">
+									<div class="links">
+										<ul>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+										</ul>
+									</div>
+								</div>
+								<h3><a href="staff-page">Dr. Butcher House</a></h3>
+								<p>Ophthomologist</p>
+							</div>
+						</div>
+					</section>-->
+					<!--/ doctors carousel -->
+				<!--</div>-->
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col-4">
+						<!-- departments -->
+						<section class="widget widget-departments">
+							<div class="widget-title">Departamentos</div>
+							<dl>
+								<dt  class="opened"><i class="fa fa-medkit"></i>Primeros aux&iacute;lios</dt>
+								<dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus.</dd>
+
+								<dt><i class="fa fa-user-md"></i>Ginecologia clinica</dt>
+								<dd>Donec lacinia suscipit magna, et pulvinar tortor facilisis quis. Donec tempor erat vel scelerisque posuere.</dd>
+
+								<dt><i class="fa fa-stethoscope"></i>Diagnostico preciso</dt>
+								<dd>Nam elementum elit eget  tellus faucibus euismod. Aliquam turpis nibh, dictum eu consequat ac, facilisis eu elit. Pellentesque pellentesque orci quam, nec tempus nibh congue ut.</dd>
+
+								<dt><i class="fa fa-heart"></i>Clinica del coraz&oacute;n</dt>
+								<dd>Nulla nec rutrum tortor, in fermentum nisl.accumsan pulvinar scelerisque tincidunt, adipiscing eget risus.</dd>
+
+								<dt><i class="fa fa-scissors"></i>Cirujia general</dt>
+								<dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus pulvinar. Urna, quis facilisis magna dolor ac lacus.</dd>
+
+								<dt><i class="fa fa-wheelchair"></i>Rehabilitaci&oacute;n</dt>
+								<dd>Sed purus purus, tincidunt eget malesuada et, molestie ut eros. Fusce blandit, sapien eu sollicitudin consectetur, ligula tellus pulvinar. Urna, quis facilisis magna dolor ac lacus.</dd>
+							</dl>
+						</section>
+						<!--/ departments -->
+					</div>
+
+					<div class="grid-col grid-col-4">
+						<!-- sevices -->
+						<section class="widget widget-sevices">
+							<div class="widget-title">Servicios M&eacute;dicos</div>
+							<ul>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Cardiologia</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Cardiologia infantil</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Oftalmologia</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Dermatologia</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Cirujia vascular</a></li>
+								<li><i class="fa fa-bookmark"></i><a href="#"><i class="fa fa-angle-right"></i>Cirujia plastica y reparadora</a></li>
+							</ul>
+						</section>
+						<!--/ sevices -->
+					</div>
+					
+					<div class="grid-col grid-col-4">
+						<!-- appointment -->
+						<section class="widget widget-appointment">
+							<div class="widget-title">Contacto</div>
+							<form action="#" id="contactform">
+								<fieldset>
+									<div class="row">
+										<input type="text" placeholder="Nombre" name="name">
+										<i class="fa fa-user"></i>
+									</div>
+									<div class="row">
+										<input type="tel" placeholder="T&eacute;lefono" name="phone">
+										<i class="fa fa-phone"></i>
+									</div>
+									<div class="row">
+										<input type="email" placeholder="Email" name="email">
+										<i class="fa fa-envelope"></i>
+									</div>
+									
+									<div class="row">
+										<textarea cols="30" rows="5" placeholder="Mensaje" name="message"></textarea>
+										<i class="fa fa-align-left"></i>
+									</div>
+									<div class="clearfix">
+										<button type="submit" class="button" value="Submit">Pedir Cita</button>
+									</div>
+								</fieldset>
+							</form>
+						</section>
+						<!--/ appointment -->	
+					</div>
+				</div>
+			</main>
+			<!--/ page content -->
+
+			<!-- page footer -->
+			<footer class="page-footer">
+				<a href="#" id="top-link" class="top-link"><i class="fa fa-angle-double-up"></i></a>
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col-3">
+						<!-- last news -->
+						<section class="widget-alt last-news">
+							<div class="widget-icon"></div>
+							<div class="widget-title">Medicardio</div>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo non odio molestie, sed venenatis elit, consectetur adipiscing.</li>
+								<li>Donec quis condimentum leo, et congue dolor. Integer auctor facilisis odio. Duis vitae nibh tristique, consectetur lacus a, facilisis rutrum enim.</li>
+								<li>Cras fermentum interdum dapibus. Maecenas imperdiet, consectetur adipiscing magna nec odio cursus, vitae consequat ante.</li>
+							</ul>
+						</section>
+						<!--/ last news -->
+					</div>
+					
+					<div class="grid-col grid-col-3">
+						<!-- location -->
+						<section class="widget-alt location">
+							<div class="widget-icon"></div>
+							<div class="widget-title">Ubicaci&oacute;n</div>
+							<address>Address will be appear here, some details here City Name, Country.</address>
+							<ul>
+								<li><i class="fa fa-phone"></i>(+54) 555-55555</li>
+								<li><i class="fa fa-at">@</i>compañia@tuweb.com</li>
+								<li><i class="fa fa-skype"></i>Skype</li>
+							</ul>
+							<nav>
+								<a href="#" class="fa fa-twitter"></a>
+								<a href="#" class="fa fa-facebook"></a>
+								<a href="#" class="fa fa-instagram"></a>
+							</nav>
+						</section>
+						<!--/ location -->	
+					</div>
+					
+					<div class="grid-col grid-col-3">
+						<!-- last news -->
+						<section class="widget-alt recent-posts">
+							<div class="widget-icon"></div>
+							<div class="widget-title">Noticias</div>
+							<ul>
+								<li>
+									<a href="#"><img src="pic/post/1.png" width="80" height="80" alt=""></a>
+									<p><a href="#">New study links lutein with eye health benefits, consectetur adipiscing</a><br>Hace 5 meses</p>
+								</li>
+								<li>
+									<a href="#"><img src="pic/post/2.png" width="80" height="80" alt=""></a>
+									<p><a href="#">Pets may reduce risk of heart disease, et congue dolor heart</a><br>Hace 8 meses</p>
+								</li>
+								<li>
+									<a href="#"><img src="pic/post/3.png" width="80" height="80" alt=""></a>
+									<p><a href="#">Discoveries offer a new explanation for diabetes, consectetur</a><br>Hace 10 meses</p>
+								</li>
+							</ul>
+						</section>
+						<!--/ last news -->					
+					</div>
+					
+					<div class="grid-col grid-col-3">
+						<!-- work time -->
+						<section class="widget-alt work-time">
+							<div class="widget-icon"></div>
+							<dl>
+								<dt>Lu</dt>
+								<dd>08:00 am - 12:00 pm</dd>
+								<dt>Ma</dt>
+								<dd>01:00 am - 05:00 pm</dd>
+								<dt>Mi</dt>
+								<dd>Free day</dd>
+								<dt>Ju</dt>
+								<dd>08:00 am - 12:00 pm</dd>
+								<dt>Vi</dt>
+								<dd>08:00 am - 12:00 pm</dd>
+								<dt>Sa</dt>
+								<dd>08:00 am - 12:00 pm</dd>
+								<dt>Do</dt>
+								<dd>Free day</dd>
+							</dl>
+							
+						</section>
+						<!--/ work time -->							
+					</div>
+				</div>
+			</footer>
+			<!--/ page footer -->
+			
+			<!-- copyrights -->
+			<div class="copyrights"><div class="footer_copyright">
+				<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <span ><a href="http://medicardio.com.ar" style="color:red" target="_blank">Medicardio</a></span> | Dise&ntilde;o & Programaci&oacute;n por<a href="https://edinarweb.com.ar" target="_blank"  class="text_footer_edcode_2"> EdinarWeb&#174;</a>
+	
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>	
+			</div>
+		<!--/ copyrights -->
+
+		</div>
+		
+		<!-- scripts -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.migrate.min.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+		<script type="text/javascript" src="js/jquery.flot.js"></script>
+		<script type="text/javascript" src="js/jquery.flot.pie.js"></script>
+		<script type="text/javascript" src="js/jquery.flot.categories.js"></script>
+		<script type="text/javascript" src="js/greensock.js"></script>
+		<script type="text/javascript" src="js/layerslider.transitions.js"></script>
+		<script type="text/javascript" src="js/layerslider.kreaturamedia.jquery.js"></script>
+
+	<!-- Superscrollorama -->		
+		<script type="text/javascript" src="js/jquery.superscrollorama.js"></script>
+		<script type="text/javascript" src="js/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/TimelineMax.min.js"></script>
+	<!--/ Superscrollorama -->
+	
+		<script type="text/javascript" src="js/jquery.ui.core.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.tabs.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-tabs-rotate.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.accordion.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tweet.js"></script>
+	<!-- EASYPIECHART -->
+		<script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+	<!--/ EASYPIECHART -->
+	<script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
+		<script type="text/javascript" src="./sw.js"></script>
+
+		
+		<!--/ scripts -->
+		
+
+		
+	</body>
+</html>

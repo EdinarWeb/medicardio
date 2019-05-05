@@ -1,0 +1,65 @@
+{
+    "name": "Medicardio",
+    "short_name": "Medicardio",
+    "description": "Bienvenid@s a Medicardio, el 1° en servicios de Emergencia Médica del País que cuenta con un sistema de Gestión de Calidad, certificado por IRAM bajo las normas ISO 9001:2008. :)",
+    "background_color": "#008FD5",
+    "theme_color": "#008FD5",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-AR",
+    "icons": [
+      {
+        "src": "./img/app/1024x1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/app/favicon.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ]
+}
+  
