@@ -2,7 +2,7 @@
   session_start();
 
 include ('database_connection.php');
-
+/*
 $country = '';
 $query = "SELECT DISTINCT Partido FROM tbl_customer ORDER BY Partido ASC";
 $statement = $connect->prepare($query);
@@ -12,7 +12,7 @@ foreach($result as $row)
 {
  $country .= '<option value="'.$row['Partido'].'">'.$row['Partido'].'</option>';
 }
-
+*/
 ?>
 <!DOCTYPE html>
 <html lang="es-AR">
@@ -141,7 +141,7 @@ foreach($result as $row)
     </div>
     <div class="col-md-4"></div>
    </div>-->
-   <div class="table-responsive">
+   <!--<div class="table-responsive">
     <table id="customer_data" class="table table-bordered table-striped">
      <thead>
       <tr>
@@ -150,14 +150,14 @@ foreach($result as $row)
        <th width="15%">CALLE</th>
        <th width="15%">BARRIO</th>
        <th width="15%">TELEFONO</th>
-       <!--<th width="15%">PARTIDO</th>-->
+      	<th width="15%">PARTIDO</th>
       </tr>
      </thead>
     </table>
     <br />
     <br />
     <br />
-   </div>
+   </div>-->
   </div>
   </div>
 

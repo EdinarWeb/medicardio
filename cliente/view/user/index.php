@@ -71,7 +71,7 @@
 						<a href="#"><i class="fas fa-user-circle"></i> <i class="fa fa-plus"></i>&nbsp;Usuario:&nbsp; <?php echo ucfirst($_SESSION['nombre']);?></a>
 					<ul>
 						<li><a href="profile">Carnet Medicardio</a></li>
-						<li><a href="target">Cartilla Medica</a></li>
+						<li><a href="buscar">Cartilla Medica</a></li>
 						<li><a href="../../controller/cerrarSesion">Salir</a></li>
 					</ul>
 					</li>
