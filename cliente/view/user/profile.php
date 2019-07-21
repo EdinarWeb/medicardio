@@ -6,7 +6,7 @@
     header('location: index.php');
 	}
 
-
+	$conexion=new mysqli('localhost','root','HeLlo1324','login');
 
 ?>
 
